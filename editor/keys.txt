@@ -1,0 +1,108 @@
+// キー数リスト
+&keyList=5,7,7i,9,11,11i,12,13,14,14i,15,16i,17&
+
+// 拍子リスト
+&beatList=4,3,5,7&
+
+// 譜面製作者名
+&tuning=DanOni&
+
+// 音楽ファイル名（相対パス指定可）
+&mp3FileName=bgm.mp3&
+
+// 音楽開始フレーム数(推奨値：最初の空白フレーム数＋50フレーム)
+&musicStframe=250&
+
+// 音楽のボリューム (0～100の整数で指定、既定：100)
+&musicVolume=100&
+
+// ヘッダー追加変数(カンマ区切り)
+&headerVal=BAR_DEFAULT,fullTime,TwitURL,musicUrl,fadeFrame,endFrame,customjs,hashTag&
+
+// フッター追加変数(カンマ区切り)
+&footerVal=&
+
+// Option Editor 2パス
+&headerUrl=optionEdit2.swf&
+
+// 文字列置換パターン(例: left/Left → left_data, frzLeft_data)
+&replacePtn=&
+
+// 文字列置換パターン(例: oni/foni  → oni_data, foni_data)
+&replaceDPtn=oni/foni&
+
+// 出力タイプ(twenty_dotさんソースのみ 2 に設定)
+&printType=1&
+
+// ページ最大数
+&limitPage=200&
+
+// 背景位置調整(水平位置) (center:中央揃え、left:左固定、right :右固定)
+&bgAdjX=center&
+
+// 背景位置調整(垂直位置) (center:中央揃え、top :上固定、bottom:下固定)
+&bgAdjY=center&
+
+// 背景初期透明度 (0～100で指定。既定は40)
+&bgAlpha=40&
+
+// 小節幅／スクロール速度 (1, 2, 4の中から指定。規定は1)
+&scrollSpd=1&
+
+// マウスホイールの感度 (0以上の整数を指定。0が最も速く、数字を大きくすると遅くなる。規定は0)
+&dragAttempt=1&
+
+&arrSort11=7,8,9,10,0,1,2,3,4,5,6$7,0,1,2,8,3,9,4,5,6,10&
+
+// 11ikey
+&keyNum11i=11&
+&arrBaseMC11i=0,0,2,0,0,2,3,3,2,3,3&
+&headerDat11i=left,down,gor,up,right,space,sleft,sdown,siyo,sup,sright&
+&temp4Ptn11i=7&
+
+// 12key
+&keyNum12=12&
+&arrBaseMC12=2,0,1,0,1,0,1,0,3,3,3,3&
+&headerDat12=oni,left,leftdia,down,space,up,rightdia,right,sleft,sdown,sup,sright&
+&temp4Ptn12=2&
+
+// 13key[TP] - MFV2さんソース版
+&keyNumTP=13&
+&arrBaseMCTP=0,0,0,0,2,3,3,3,3,4,4,4,4&
+&headerDatTP=left,down,up,right,space,sleft,sdown,sup,sright,aleft,adown,aup,aright&
+&arrSortTP=0,1,2,3,4,9,10,11,12,5,6,7,8&
+&temp4PtnTP=4&
+
+// 14key
+&keyNum14=14&
+&arrBaseMC14=2,0,1,0,1,0,1,0,4,3,3,3,3,4&
+&headerDat14=oni,left,leftdia,down,space,up,rightdia,right,sleftdia,sleft,sdown,sup,sright,srightdia&
+&arrSort14=0,1,2,3,4,5,6,7$8,9,10,11,12,13&
+&temp4Ptn14=2&
+
+// 14ikey
+&keyNum14i=14&
+&arrBaseMC14i=4,4,4,3,3,3,3,0,1,0,2,0,1,0&
+&headerDat14i=gor,space,iyo,left,down,up,right,sleft,sleftdia,sdown,sspace,sup,srightdia,sright,frzGor,frzSpace,sfrzIyo,frzLeft,frzDown,frzUp,frzRight,sfrzLeft,sfrzLdia,sfrzDown,sfrzSpace,sfrzUp,sfrzRdia,sfrzRight&
+&temp4Ptn14i=4&
+
+// 16ikey
+&keyNum16i=16&
+&arrBaseMC16i=4,4,4,5,5,5,5,0,0,0,0,2,3,3,3,3&
+&headerDat16i=gor,space,iyo,left,down,up,right,sleft,sdown,sup,sright,aspace,aleft,adown,aup,aright,frzGor,frzSpace,sfrzIyo,frzLeft,frzDown,frzUp,frzRight,sfrzLeft,sfrzDown,sfrzUp,sfrzRight,afrzSpace,afrzLeft,afrzDown,afrzUp,afrzRight&
+&temp4Ptn16i=4&
+
+// 17key
+&keyNum17=17&
+&arrBaseMC17=1,1,1,1,0,0,0,0,2,0,0,0,0,1,1,1,1&
+&headerDat17=aleft,adown,aup,aright,bleft,bdown,bup,bright,space,cleft,cdown,cup,cright,dleft,ddown,dup,dright&
+&arrSort17=0,4,1,5,2,6,3,7,8,9,13,10,14,11,15,12,16&
+&temp4Ptn17=14&
+
+// 25key
+&keyNum25=25&
+&arrBaseMC25=0,1,0,2,0,1,0,3,3,3,3,3,3,4,4,4,4,4,4,5,5,5,5,5,5&
+&headerDat25=aleft,aleftdia,adown,aspace,aup,arightdia,aright,bleft,bleftdia,bdown,bup,brightdia,bright,cleft,cleftdia,cdown,cup,crightdia,cright,dleft,dleftdia,ddown,dup,drightdia,dright&
+&arrSort25=0,1,2,3,4,5,6$7,8,9,3,10,11,12$13,14,15,3,16,17,18$19,20,21,3,22,23,24&
+&temp4Ptn25=5&
+

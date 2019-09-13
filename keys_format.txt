@@ -1,0 +1,73 @@
+//
+// 以下の内容は、エディター本体で設定されています。
+// 変更が必要な場合のみ、以下から必要な箇所をコピーして編集し、
+// 「keys.txt」に追加してください。
+//
+
+// キー数リスト
+&keyList=5,7,7i,9,11,13,15&
+
+// 拍子リスト
+&beatList=4,3,5,7&
+
+// ヘッダー追加変数(カンマ区切り)
+&headerVal=musicTitle,difData,difStep,difName,speedlock,setColor,frzColor,startFrame,headerUrl,editorUrl&
+
+// フッター追加変数(カンマ区切り)
+&footerVal=color,acolor,word&
+
+// 文字列置換パターン
+// (例: left/Left の場合:  left_data → frzLeft_data, sleft_data → sfrzLeft_data)
+&replacePtn=leftdia/Ldia,left/Left,down/Down,space/Space,up/Up,rightdia/Rdia,right/Right,gor/Gor,iyo/Iyo,ldia/Ldia,rdia/Rdia,arrow/Arrow&
+
+&measure=16&
+
+// 5key
+&keyNum5=5&
+&arrBaseMC5=0,0,0,0,2&
+&headerDat5=left,down,up,right,space$left,down,up,right,space&
+&arrSort5=&
+&temp4Ptn5=1&
+
+// 7key
+&keyNum7=7&
+&arrBaseMC7=0,1,0,2,0,1,0&
+&headerDat7=left,leftdia,down,space,up,rightdia,right$left,ldia,down,space,up,rdia,right&
+&arrSort7=&
+&temp4Ptn7=5&
+
+// 7ikey
+&keyNum7i=7&
+&arrBaseMC7i=3,3,3,0,0,0,0&
+&headerDat7i=left,leftdia,down,space,up,rightdia,right$left,ldia,down,space,up,rdia,right&
+&arrSort7i=&
+&temp4Ptn7i=4&
+
+// 9key
+&keyNum9=9&
+&arrBaseMC9=0,0,0,0,2,3,3,3,3&
+&headerDat9=left,down,up,right,space,sleft,sdown,sup,sright$left,down,up,right,space,sleft,sdown,sup,sright&
+&arrSort9=&
+&temp4Ptn9=6&
+
+// 11key
+&keyNum11=11&
+&arrBaseMC11=0,1,0,2,0,1,0,3,3,3,3&
+&headerDat11=left,leftdia,down,space,up,rightdia,right,sleft,sdown,sup,sright$left,ldia,down,space,up,rdia,right,sleft,sdown,sup,sright&
+&arrSort11=0,1,2,3,7,8,9,10,4,5,6$7,8,9,10,0,1,2,3,4,5,6$0,1,2,7,8,9,10,3,4,5,6&
+&temp4Ptn11=8&
+
+// 13key[TP]
+&keyNum13=13&
+&arrBaseMC13=0,0,0,0,2,3,3,3,3,4,4,4,4&
+&headerDat13=left,down,up,right,space,sleft,sdown,sup,sright,tleft,tdown,tup,tright$left,down,up,right,space,sleft,sdown,sup,sright,tleft,tdown,tup,tright&
+&arrSort13=0,1,2,3,4,9,10,11,12,5,6,7,8&
+&temp4Ptn13=10&
+
+// 15key
+&keyNum15=15&
+&arrBaseMC15=0,1,0,2,0,1,0,3,3,3,3,4,4,4,4&
+&headerDat15=left,leftdia,down,space,up,rightdia,right,sleft,sdown,sup,sright,tleft,tdown,tup,tright$left,ldia,down,space,up,rdia,right,sleft,sdown,sup,sright,tleft,tdown,tup,tright&
+&arrSort15=7,8,9,10,0,1,2,3,4,5,6,11,12,13,14$7,8,9,10,3,11,12,13,14$0,1,2,3,4,5,6&
+&temp4Ptn15=5&
+

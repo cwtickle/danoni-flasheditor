@@ -1,0 +1,13 @@
+&musicTitle=101 kittens,cranky,http://www.google.co.jp/&
+&difData=7,Easy,1,70,1,10$5,Normal,1.25$7i,Hard,1.75,100$DP,Extreme,2,,1,12$9B,Extra,3,x,6,40$11,Alt$11L$TP,Frantic,1.5,50$15,Arc&
+&setColor=0xcccccc,0x3333ff,0xffffff,0xff0066,0xff9966&
+&frzColor=0x00ffff,0x6600ff,0x99ff66,0xAAff77&
+&startFrame=0&
+&headerUrl=&
+&editorUrl=editorn_34x_cs4.swf&
+
+&left_data=300,2120,87110&leftdia_data=350,1100,2140,86960,87080&down_data=200,400,1150,2150,87020,87140&space_data=450,2170,87170&up_data=500,1000,2000&rightdia_data=550,1050,2060&right_data=600&frzLeft_data=&frzLdia_data=&frzDown_data=&frzSpace_data=&frzUp_data=2180,2300&frzRdia_data=&frzRight_data=&boost_data=&speed_change=1200,1&
+
+&first_num=200,2000&haba_num=25,15&haba_page_num=0,2&rhythm_num=&tuning=editor&dataEnd=true
+
+&color_data=300,21,0x666999,1000,30,0x00ff00,1000,31,0x66ff66,1200,51,0xccff66,2400,32,0xffff66&
